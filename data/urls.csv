@@ -1,0 +1,11 @@
+url,doc_id,title,audience,department,category,language,document_version,license_or_permission,institution
+https://lib.ptit.edu.vn/noi-quy-thu-vien/,ptit-library-rules,"Nội quy thư viện PTIT, quy định chung",all,library,library,vi,817/QĐ-TTTV,public-source,ptit
+https://lib.ptit.edu.vn/noi-quy-thu-vien/,ptit-library-student,"Nội quy thư viện PTIT, hạn mức mượn của học viên và sinh viên",student,library,library,vi,817/QĐ-TTTV,public-source,ptit
+https://lib.ptit.edu.vn/noi-quy-thu-vien/,ptit-library-faculty,"Nội quy thư viện PTIT, hạn mức mượn của cán bộ và giảng viên",faculty,library,library,vi,817/QĐ-TTTV,public-source,ptit
+https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,huit-library-rules,"Quy định sử dụng thư viện HUIT, quy định chung",all,library,library,vi,not-stated,public-source,huit
+https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,huit-library-student,"Quy định sử dụng thư viện HUIT, đối với sinh viên và học viên",student,library,library,vi,not-stated,public-source,huit
+https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,huit-library-faculty,"Quy định sử dụng thư viện HUIT, đối với giảng viên và viên chức",faculty,library,library,vi,not-stated,public-source,huit
+https://thuvien.huit.edu.vn/Page/nhung-cau-hoi-thuong-gap,huit-library-faq,Những câu hỏi thường gặp thư viện HUIT,all,library,library,vi,not-stated,public-source,huit
+https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,dav-library-borrowing,"Quy trình mượn trả tài liệu Học viện Ngoại giao, quy định chung",all,library,library,vi,not-stated,public-source,dav
+https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,dav-library-student,"Quy trình mượn trả tài liệu Học viện Ngoại giao, hạn mức và lịch mượn của sinh viên và học viên",student,library,library,vi,not-stated,public-source,dav
+https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,dav-library-faculty,"Quy trình mượn trả tài liệu Học viện Ngoại giao, hạn mức và lịch mượn của cán bộ và giảng viên",faculty,library,library,vi,not-stated,public-source,dav

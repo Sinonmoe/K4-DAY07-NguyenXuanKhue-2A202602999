@@ -1,0 +1,11 @@
+doc_id,file_path,title,source_url,retrieved_at,document_version,license_or_permission
+dav-library-borrowing,data\quy-dinh-thu-vien\dav-library-borrowing.md,"Quy trình mượn trả tài liệu Học viện Ngoại giao, quy định chung",https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,2026-09-19,not-stated,public-source
+dav-library-faculty,data\quy-dinh-thu-vien\dav-library-faculty.md,"Quy trình mượn trả tài liệu Học viện Ngoại giao, hạn mức và lịch mượn của cán bộ và giảng viên",https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,2026-09-19,not-stated,public-source
+dav-library-student,data\quy-dinh-thu-vien\dav-library-student.md,"Quy trình mượn trả tài liệu Học viện Ngoại giao, hạn mức và lịch mượn của sinh viên và học viên",https://dav.edu.vn/quy-trinh-muon-tra-tai-lieu-4965/,2026-09-19,not-stated,public-source
+huit-library-faculty,data\quy-dinh-thu-vien\huit-library-faculty.md,"Quy định sử dụng thư viện HUIT, đối với giảng viên và viên chức",https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,2026-09-19,not-stated,public-source
+huit-library-faq,data\quy-dinh-thu-vien\huit-library-faq.md,Những câu hỏi thường gặp thư viện HUIT,https://thuvien.huit.edu.vn/Page/nhung-cau-hoi-thuong-gap,2026-09-19,not-stated,public-source
+huit-library-rules,data\quy-dinh-thu-vien\huit-library-rules.md,"Quy định sử dụng thư viện HUIT, quy định chung",https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,2026-09-19,not-stated,public-source
+huit-library-student,data\quy-dinh-thu-vien\huit-library-student.md,"Quy định sử dụng thư viện HUIT, đối với sinh viên và học viên",https://thuvien.huit.edu.vn/Page/quy-dinh-su-dung-thu-vien,2026-09-19,not-stated,public-source
+ptit-library-faculty,data\quy-dinh-thu-vien\ptit-library-faculty.md,"Nội quy thư viện PTIT, hạn mức mượn của cán bộ và giảng viên",https://lib.ptit.edu.vn/noi-quy-thu-vien/,2026-09-19,817/QĐ-TTTV,public-source
+ptit-library-rules,data\quy-dinh-thu-vien\ptit-library-rules.md,"Nội quy thư viện PTIT, quy định chung",https://lib.ptit.edu.vn/noi-quy-thu-vien/,2026-09-19,817/QĐ-TTTV,public-source
+ptit-library-student,data\quy-dinh-thu-vien\ptit-library-student.md,"Nội quy thư viện PTIT, hạn mức mượn của học viên và sinh viên",https://lib.ptit.edu.vn/noi-quy-thu-vien/,2026-09-19,817/QĐ-TTTV,public-source

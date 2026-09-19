@@ -1,0 +1,54 @@
+### strategy=sliding chunk_size=300 embedder=paraphrase-multilingual-MiniLM-L12-v2
+Loaded 10 files -> 370 chunks (avg 249 chars)
+
+Q1: Mượn sách về nhà ở thư viện HUIT được tối đa mấy tài liệu và trong bao nhiêu ngày?
+   gold_doc=huit-library-student  evidence=['Số ngày mượn: 10', 'Thời gian được mượn: 10 ngày']
+   [không filter]
+     1. ✓ score=0.842 doc_id=huit-library-student aud=student chunk=huit-library-student#2 | Quy định sử dụng thư viện HUIT > Hạn mức mượn đối với sinh viên và học viên > 5. Quy định mượn/trả tài
+     2. ✗ score=0.819 doc_id=huit-library-faculty aud=faculty chunk=huit-library-faculty#2 | Quy định sử dụng thư viện HUIT > Hạn mức mượn đối với giảng viên và viên chức > 5. Quy định mượn/trả tài
+     3. ✗ score=0.808 doc_id=huit-library-faq aud=all chunk=huit-library-faq#11 | Những câu hỏi thường gặp thư viện HUIT > 6. Mượn sách về nhà được tối đa mấy tài liệu và trong bao nh
+   [filter {'audience': 'student'}]
+     1. ✓ score=0.842 doc_id=huit-library-student aud=student chunk=huit-library-student#2 | Quy định sử dụng thư viện HUIT > Hạn mức mượn đối với sinh viên và học viên > 5. Quy định mượn/trả tài
+     2. ✗ score=0.791 doc_id=dav-library-student aud=student chunk=dav-library-student#3 | Quy trình mượn trả tài liệu Học viện Ngoại giao > Hạn mức và lịch mượn đối với sinh viên, học viên >
+     3. ✗ score=0.780 doc_id=ptit-library-student aud=student chunk=ptit-library-student#3 | Nội quy thư viện PTIT > Hạn mức mượn đối với học viên và sinh viên > 2. Nội quy phòng đọc > Điều 13.
+
+Q2: Quy trình mượn tài liệu về nhà ở thư viện Học viện Ngoại giao gồm những bước nào?
+   gold_doc=dav-library-borrowing  evidence=['B1: Trình thẻ thư viện', 'B5: Đưa phiếu yêu cầu']
+   [không filter]
+     1. ✗ score=0.806 doc_id=dav-library-borrowing aud=all chunk=dav-library-borrowing#0 | Quy trình mượn trả tài liệu Học viện Ngoại giao (quy định chung)\nQuy định và thủ tục mượn trả tài liệ
+     2. ✓ score=0.794 doc_id=dav-library-borrowing aud=all chunk=dav-library-borrowing#9 | Quy trình mượn trả tài liệu Học viện Ngoại giao (quy định chung) > 7. Quy trình mượn tài liệu\nB1: Trình
+     3. ✗ score=0.788 doc_id=dav-library-borrowing aud=all chunk=dav-library-borrowing#6 | Quy trình mượn trả tài liệu Học viện Ngoại giao (quy định chung) > 5. Thời gian tiến hành thủ tục mượn
+
+Q3: Muốn được sử dụng thư viện HUIT thì cần những điều kiện gì?
+   gold_doc=huit-library-faq  evidence=['Thứ nhất: Có thẻ thư viện']
+   [không filter]
+     1. ✗ score=0.826 doc_id=huit-library-rules aud=all chunk=huit-library-rules#0 | Quy định sử dụng thư viện HUIT (quy định chung)\nTrường Đại học Công Thương TP. Hồ Chí Minh (HUIT) - Th
+     2. ✗ score=0.814 doc_id=huit-library-rules aud=all chunk=huit-library-rules#2 | Quy định sử dụng thư viện HUIT (quy định chung) > 1. Quy định chung\nBạn đọc khi vào Thư viện phải tuân
+     3. ✗ score=0.799 doc_id=huit-library-rules aud=all chunk=huit-library-rules#3 | Quy định sử dụng thư viện HUIT (quy định chung) > 2. Quy định về Thẻ thư viện\nThẻ cán bộ, giảng viên, 
+
+Q4: Trả sách trễ hạn ở thư viện HUIT bị phạt bao nhiêu tiền mỗi ngày?
+   gold_doc=huit-library-faq  evidence=['1.000đ/tài liệu/ngày']
+   [không filter]
+     1. ✓ score=0.856 doc_id=huit-library-faq aud=all chunk=huit-library-faq#13 | Những câu hỏi thường gặp thư viện HUIT > 7. Nếu trả sách trễ hạn phải nộp phạt như thế nào?\nBạn đọc tr
+     2. ✗ score=0.831 doc_id=huit-library-rules aud=all chunk=huit-library-rules#9 | Quy định sử dụng thư viện HUIT (quy định chung) > 6. Quy định đền bù làm rách, mất trang, hư hỏng tài li
+     3. ✗ score=0.781 doc_id=dav-library-borrowing aud=all chunk=dav-library-borrowing#5 | Quy trình mượn trả tài liệu Học viện Ngoại giao (quy định chung) > 4. Quy định phạt quá hạn và xử lý vi
+
+Q5: Thư viện PTIT cho mượn về nhà tối đa mấy cuốn, thời hạn mượn là bao lâu?
+   gold_doc=ptit-library-student  evidence=['Số lượng tài liệu: 02 cuốn', 'tối đa là 08 cuốn']
+   [không filter]
+     1. ✗ score=0.841 doc_id=ptit-library-faculty aud=faculty chunk=ptit-library-faculty#2 | Nội quy thư viện PTIT > Hạn mức mượn đối với cán bộ và giảng viên > 2. Nội quy phòng đọc > Điều 13. Mượ
+     2. ✗ score=0.818 doc_id=ptit-library-faculty aud=faculty chunk=ptit-library-faculty#4 | Nội quy thư viện PTIT > Hạn mức mượn đối với cán bộ và giảng viên > 3. Nội quy phòng mượn > Điều 22. H
+     3. ✓ score=0.812 doc_id=ptit-library-student aud=student chunk=ptit-library-student#3 | Nội quy thư viện PTIT > Hạn mức mượn đối với học viên và sinh viên > 2. Nội quy phòng đọc > Điều 13. Mượ
+   [filter {'audience': 'student'}]
+     1. ✗ score=0.815 doc_id=ptit-library-student aud=student chunk=ptit-library-student#1 | Nội quy thư viện PTIT > Hạn mức mượn đối với học viên và sinh viên\nThư viện Học viện Công nghệ Bưu ch
+     2. ✓ score=0.812 doc_id=ptit-library-student aud=student chunk=ptit-library-student#3 | Nội quy thư viện PTIT > Hạn mức mượn đối với học viên và sinh viên > 2. Nội quy phòng đọc > Điều 13. Mượ
+     3. ✗ score=0.784 doc_id=dav-library-student aud=student chunk=dav-library-student#3 | Quy trình mượn trả tài liệu Học viện Ngoại giao > Hạn mức và lịch mượn đối với sinh viên, học viên >
+
+====================================================================================================
+Tóm tắt strategy=sliding (doc-level = gold doc trong top-3; content-level = chunk chứa đáp án)
+  Q1: không filter -> doc-level có, content-level rank=1, điểm 2, audience top-1=student | có filter -> doc-level có, content-level rank=1, điểm 2
+  Q2: không filter -> doc-level có, content-level rank=2, điểm 1, audience top-1=all
+  Q3: không filter -> doc-level không, content-level rank=None, điểm 0, audience top-1=all
+  Q4: không filter -> doc-level có, content-level rank=1, điểm 2, audience top-1=all
+  Q5: không filter -> doc-level có, content-level rank=3, điểm 1, audience top-1=faculty | có filter -> doc-level có, content-level rank=2, điểm 1
+  Tổng điểm truy xuất (dùng kết quả có filter nếu câu có filter): 6/10
